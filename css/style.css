@@ -9,6 +9,11 @@ body {
     background: #ffffff;
 }
 
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1500px;
+    }
+}
 a {
     color: #AF9483;
     transition: 0.5s;
